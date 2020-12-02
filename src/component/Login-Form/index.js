@@ -26,11 +26,11 @@ function FormLogin() {
     }
 
     return (
-        <div>
+        <div className="FormLogin">
             {(user.email !== "") ? (
-                <div>
+                <div className="welcome">
                     <h2>Welcome, <span>{user.name}</span></h2>
-                    <input type="submit" value="Logout" onClick={Logout}/>
+                    <button onClick={Logout}>Logout</button>
                 </div>
             ) : (
                 <LoginA Login={Login} error={error}/>
