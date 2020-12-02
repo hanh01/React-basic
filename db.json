@@ -1,0 +1,52 @@
+{
+  "product": [
+    {
+      "id":  1,
+      "name" : "Product1"
+    },
+    {
+      "id":  2,
+      "name" : "aaaaaa"
+    },
+    {
+      "id":  3,
+      "name" : "bbbbb"
+    },
+    {
+      "id":  4,
+      "name" : "Xin chào"
+    },
+    {
+      "id":  5,
+      "name" : "Hi"
+    },
+    {
+      "id":  6,
+      "name" : "Tôi đây"
+    },
+    {
+      "id":  7,
+      "name" : "nè"
+    },
+    {
+      "id":  8,
+      "name" : "hạnh"
+    },
+    {
+      "id":  9,
+      "name" : "Hanhxg"
+    }
+  ],
+  "user": [
+    {
+      "name": "Hanh1",
+      "email" : "hanh2101@gmail.com",
+      "password": 123456
+    },
+    {
+      "name": "Hanh2",
+      "email" : "hanh2000@gmail.com",
+      "password": 123456
+    }
+  ]
+}
