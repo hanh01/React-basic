@@ -16,7 +16,7 @@ import SearchData from './component/SearchData';
 import {Auth0Provider} from '@auth0/auth0-react';
 import App from "./App";
 import LoginAuth0 from "./component/Form-login-width-Auth0/LoginAuth0";
-import FormLogin from "./component/Login-Form";
+import FormLogin from "./component/Login-Form-Hook";
 
 
 ReactDOM.render(
