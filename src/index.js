@@ -12,16 +12,18 @@ import reportWebVitals from './reportWebVitals';
 // import Search from './component/Search';
 // import Check from './component/Check-mail/Check';
 import SearchData from './component/SearchData';
-// import LoginA from "./component/Form-login-width-Auth0/LoginA";
+// import LoginB from "./component/Form-login-width-Auth0/LoginB";
 import {Auth0Provider} from '@auth0/auth0-react';
 import App from "./App";
 import LoginAuth0 from "./component/Form-login-width-Auth0/LoginAuth0";
 import FormLogin from "./component/Login-Form-Hook";
+import FormLoginB from "./component/Login-Form-Class";
+import LoginGoogle from "./component/Login-Form-Google/LoginGoogle";
 
 
 ReactDOM.render(
   <React.StrictMode>
-      {/*<LoginA/>*/}
+      {/*<LoginB/>*/}
     {/* <Check/> */}
     {/* <App /> */}
     {/* <HandlingEvents/> */}
@@ -32,7 +34,9 @@ ReactDOM.render(
     {/* <LifeCycle/> */}
     {/* <Search/> */}
     {/*<SearchData/>*/}
-    <FormLogin/>
+    {/*<FormLogin/>*/}
+    {/*<FormLoginB/>*/}
+    <LoginGoogle/>
   </React.StrictMode>,
   document.getElementById('root')
 );

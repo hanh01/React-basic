@@ -10,7 +10,7 @@ export default class App extends Component {
             <div>
                <GoogleLogin 
                clientId="384913084848-kv1oiq23ng02c0mdapfadvdua9k7lde8.apps.googleusercontent.com"
-               buttonText="LoginA"
+               buttonText="LoginB"
                onSuccess={responseGoogle}
                isSignedIn={true}
                onFailure={responseGoogle}
